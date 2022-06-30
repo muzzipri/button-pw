@@ -3,12 +3,12 @@ import Button from "./Button";
 function App(){
   const botao = [
     {
-      tit: "PREVIOUS",
-      sub: "JQUERY: DETECT UPDATE OF HTML ELEMENT",
+      titu: "PREVIOUS",
+      subi: "JQUERY: DETECT UPDATE OF HTML ELEMENT",
     },
     {
-      tit2: "NEXT",
-      sub2: "RAILS + DEVISE WORKING WITH MULTIPLE MODELS"
+      titu2: "NEXT",
+      subi2: "RAILS + DEVISE WORKING WITH MULTIPLE MODELS"
     },
   ];
 
@@ -16,10 +16,10 @@ function App(){
     <div>
       {botao.map((boton) => {
         return <Button key={boton}
-                tit={boton.tit}
-                sub={boton.sub}
-                tit2={boton.tit2}
-                sub2={boton.sub2}
+                titu={boton.titu}
+                subi={boton.subi}
+                titu2={boton.titu2}
+                subi2={boton.subi2}
                 />;
       })
       }
